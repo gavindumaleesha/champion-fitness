@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .products-container {
+    background-image: url('../assets/orangeBg.png');
+    background-size: cover;
+    background-position: center;
+    height: 606px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-heading {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .mid-text {
+    color: #ffffff;
+  }
+  
+  .all-packs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gents-pack,
+  .woman-details {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .man-img {
+    width: 312px;
+    height: 546px;
+  }
+  
+  .woman-img {
+    width: 406px;
+    height: 546px;
+  }
+  
+  .man-details {
+    color: black;
+    margin-right: 100px;
+  }
+  
+  .woman-details {
+    color: black;
+    margin-left: 100px;
+  }
+  
+  .sub-heading {
+    font-size: 26px;
+    font-weight: 500;
+    padding: 20px;
+  }
+  
+  .sub-details {
+    display: flex;
+    font-size: 18px;
+  }
+  
+  .sub-details li {
+    padding: 5px;
+  }
+  
+  .quantity-list {
+    list-style: none;
+    margin-left: 50px;
+  }
+  
+  .buy-button {
+    width: 130px;
+    background-color: #ff8a00;
+    border-color: #ff8a00;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .buy-button-ladies {
+    width: 130px;
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff8a00;
+  }
+  
+  .item-price {
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .main-heading {
+      font-size: 6vw;
+    }
+  
+    .sub-heading {
+      font-size: 3vw;
+    }
+  
+    .sub-details {
+      font-size: 2vw;
+    }
+  
+    .quantity-list {
+      margin-left: 4vw;
+    }
+  
+    .item-price {
+      padding: 3vw;
+    }
+  
+    .man-img,
+    .woman-img {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-heading {
+      font-size: 8vw;
+    }
+  
+    .sub-heading {
+      font-size: 4vw;
+    }
+  
+    .sub-details {
+      font-size: 3vw;
+    }
+  
+    .quantity-list {
+      margin-left: 6vw;
+    }
+  
+    .item-price {
+      padding: 4vw;
+    }
+  }
+  
