@@ -1,3 +1,7 @@
+:root {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
 
 .banner-container {
     width: 100%;
-    height: 788px;
+    height: 100vh; 
     background-image: url('../assets/banner.jpg');
     background-size: cover; 
     background-position: center; 
@@ -18,19 +22,19 @@
 
 .banner-heading {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem; 
     font-weight: lighter;
 }
 
 .banner-mid-text {
     color: #ff8a00;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 5rem; 
 }
 
 .banner-text {
     width: 100%;
-    height: 788px;
+    height: 100vh; 
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -46,11 +50,11 @@
     background-color: #ff8a00;
     border-color: #ff8a00;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem; 
     font-weight: 500;
     color: rgb(0, 0, 0);
-    width: 230px;
-    height: 50px;
+    width: 14.375rem; 
+    height: 3.125rem; 
 }
 
 .large-button-light {
@@ -61,11 +65,11 @@
 
 @media (max-width: 768px) {
     .banner-heading {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .banner-mid-text {
-        font-size: 48px;
+        font-size: 3rem;
     }
 
     .banner-text {
@@ -73,8 +77,8 @@
     }
 
     .large-button-solid, .large-button-light {
-        width: 180px;
-        height: 40px;
-        font-size: 14px;
+        width: 11.25rem; 
+        height: 2.5rem;
+        font-size: 0.875rem; 
     }
 }

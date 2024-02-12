@@ -1,3 +1,7 @@
+:root {
+    font-size: 16px;
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
 
 .package-container {
     background-color: #08080D;
-    height: 606px;
+    min-height: 37.9rem; 
     width: auto;
     display: flex; 
     flex-direction: column; 
@@ -16,7 +20,7 @@
 
 .package-heading {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem; 
     font-weight: bold;
     text-align: center;
 }
@@ -25,59 +29,59 @@
     color: #ff8a00;
 }
 
-.package-card-container{
+.package-card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.package-card{
-    width: 362px;
-    height: 341px;
-    background-color:#F9F9F9;
-    margin: 40px;
+.package-card {
+    width: 22.625rem; 
+    height: 21.3125rem; 
+    background-color: #F9F9F9;
+    margin: 2.5rem; 
 }
 
-.cover-img{
-    width: 362px;
-    height: 235px;
+.cover-img {
+    width: 22.625rem; 
+    height: 14.7rem;
 }
 
-.package-topic{
+.package-topic {
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 1.5rem; 
     font-weight: bold;
 }
 
-.topic-container{
-    margin-left: 10%;
-    margin-top: 5%;
+.topic-container {
+    margin-left: 1.25rem; 
+    margin-top: 0.65rem; 
 }
 
-.small-button{
-    margin-left: 25%;
+.small-button {
+    margin-left: 6.25rem; 
     background-color: #ff8a00;
     border-color: #ff8a00;
-    border-radius: 5px;
-    padding: 1%;
-    font-size: 16px;
+    border-radius: 0.35rem; 
+    padding: 0.7rem; 
+    font-size: 1rem; 
     color: white;
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 80rem) { 
     .package-container {
         background-color: #08080D;
         height: auto; 
     }
 
     .package-heading {
-        font-size: 24px;
+        font-size: 2.4rem; 
     }
 
     .package-card {
-        width: calc(100% - 40px); 
+        width: calc(100% - 2.5rem); 
         height: auto; 
-        margin: 20px 0;
+        margin: 1.25rem 0; 
     }
 
     .cover-img {
@@ -85,12 +89,16 @@
         height: auto;
     }
 
-    .topic {
-        font-size: 18px;
+    .package-topic {
+        font-size: 1.2rem; 
     }
 
     .topic-container {
-        margin-left: 5%; 
-        margin-top: 0%; 
+        margin-left: 0.7rem; 
+        margin-top: 0;
+    }
+
+    .small-button {
+        margin-left: 3.8rem; 
     }
 }
